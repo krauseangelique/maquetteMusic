@@ -1,6 +1,6 @@
 # maquetteMusic
 ## Objectifs
-- Réaliser une maquette sans HTML et CSS de base.
+- Réaliser une maquette  HTML et CSS de base.
 - Suivre des consignes précises.
 - Apprendre à se débrouiller en allant lire la théorie vue ou la documentation. 
 
