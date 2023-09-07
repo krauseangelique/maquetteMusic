@@ -33,8 +33,7 @@ body {
     --footer-bg-color: #202027;
     --accent-color: #BC3A80;
     --accent-color-darker: #9d316b;
-    --button-color: #1867A7;
-    
+    --button-color: #1867A7;    
 }
 
 body{
@@ -45,9 +44,41 @@ body{
     font-family: 'Pacifico', cursive;
     font-family: 'Poppins', sans-serif;
     font-weight: 400;
-    border: 3px solid rgb(74, 14, 14);
-    height: 97vh;    
+    border: 3px solid green;     
+    overflow: hidden;
+    height: 100vh;
+    margin: 0;
 }
+
+/* Mes bubulles */
+div[class^="bulle-"]{
+    
+    border-radius: 50%;
+    z-index: -10;
+    aspect-ratio: 1;
+    position: absolute;
+    background-color: red;
+    
+}
+div.bulle-1{
+    background-color: #473144;
+    top: 700px;
+    left: -40px;
+    height: 400px;
+}
+div.bulle-2{
+    background-color: pink;
+    top: 300px;
+    left: 540px;
+    max-height: 200px;
+}
+div.bulle-3{
+    background-color: #29384B;
+    bottom: 100px;
+    right: 100px;
+    max-height: 500px;
+}
+
 
 /* HEADER */
 
@@ -64,10 +95,6 @@ body{
     width: 250px;
     height: 100px;      
 }
-nav{
-    display: flex;
-    justify-content: flex-end;    
-}
 .logoSound{
     margin-right: 1rem;
     margin-left: 1rem;
@@ -77,12 +104,31 @@ h1{
     font-weight: 600;
     margin-left: 1rem;
 }
+
+/* Menu */
+nav{
+    display: flex;
+    justify-content: flex-end;    
+}
 ul{
     display: flex;
+    list-style-type: none;
 }
 ul > li{
     margin: 1rem;
 }
+li > a{
+    text-decoration: none;
+}
+a{
+    color: var(--main-color);  
+}
+
+.menu a.current{
+    color: white;
+    font-weight: 600;
+}
+
 
 /* MAIN */
 main{
@@ -90,15 +136,19 @@ main{
     display: flex;
     justify-content: space-between;
     letter-spacing: 1.5px;
-    max-height: 85%;
+   min-height: calc(100vh - 100px);
     font-weight: 400;
     
 }
+.imageInterprete{
+    display: flex;
+    align-items: flex-end;
+}
 .text{
-    /*border: 1px solid yellowgreen; */
+    border: 1px solid yellowgreen; 
     flex: 1;
     height: 82vh;
-    margin-left: 10rem;
+    margin-left: 7rem;
     
 }
 h2{
@@ -113,9 +163,11 @@ input[type=button]{
     background-color: var(--accent-color);
     padding: 1rem 3rem;
     font-size: 1rem;
+    font-weight: 700;
     margin: 4px 2px;
     border: 1px solid var(--input-bg-color);
     border-radius: 1rem;
+    letter-spacing: 1.5px;
     cursor: pointer;
     transition: ease 0.5s;
 }
@@ -124,4 +176,11 @@ input[type=button]:hover{
     padding: 0.95rem 2.9rem;
 
 }
+input[type=button]:active{
+    box-shadow: 2px 2px 5px #fc4df6;
+}
+
+img{
+    max-height: 790px;
+}   
 
