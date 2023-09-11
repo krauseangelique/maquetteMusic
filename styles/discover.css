@@ -1,3 +1,50 @@
- main{
-    background-color: gray;
- } 
+ .discoverMusic, .imageDiscover{
+   display: flex;
+   flex: 50%;
+   height: 82vh;
+ }
+ .discoverMusic{
+   flex-direction:column;
+ }
+ .products{
+   display: flex;
+   align-items:center;
+   height: 25vh;
+ }
+ .product{
+   background-color: var(--element-bg-color);
+   text-align: center;
+   padding: 5px;
+     
+ }
+ .product img{
+   transition: ease 0.5s;
+ }
+ .icon img{
+   height: 10%;
+   aspect-ratio: 1;
+   filter: invert(62%) sepia(29%) saturate(918%) hue-rotate(134deg) brightness(95%) contrast(97%);
+ }
+ /*
+ .div-with-svg-inside {
+    color: red;
+}
+ */
+ .product:hover img{
+   filter: invert(78%) sepia(21%) saturate(935%) hue-rotate(123deg) brightness(75%) contrast(97%);
+ }
+ .imageDiscover{
+   display: flex;
+   height: 68vh;
+   margin-top: 3%;
+ }
+ .image1{
+   margin-top: 1rem;
+ }
+ .square{
+   height: 50%;
+   aspect-ratio: 1;
+ }
+ img[name="secondOff"]{
+   margin-top: 3rem;
+ }

@@ -33,7 +33,8 @@ body {
     --footer-bg-color: #202027;
     --accent-color: #BC3A80;
     --accent-color-darker: #9d316b;
-    --button-color: #1867A7;    
+    --button-color: #1867A7; 
+    --element-bg-color: #202027;  
 }
 
 body{
@@ -43,8 +44,7 @@ body{
     font-family: 'Luckiest Guy', cursive;
     font-family: 'Pacifico', cursive;
     font-family: 'Poppins', sans-serif;
-    font-weight: 400;
-    border: 3px solid green;     
+    font-weight: 400;     
     overflow: hidden;
     height: 100vh;
     margin: 0;
@@ -58,7 +58,6 @@ body{
     justify-content: space-between;
 }
 .logo{
-    border: 2px solid rgb(128, 223, 222);
     display: flex;
 }
 .logo, nav{
@@ -103,11 +102,10 @@ a{
 
 /* MAIN */
 main{
-    border: 2px solid red;
     display: flex;
     justify-content: space-between;
     letter-spacing: 1.5px;
-   min-height: calc(100vh - 100px);
+    min-height: calc(100vh - 100px);
     font-weight: 400;
     
 }
@@ -115,8 +113,7 @@ main{
     display: flex;
     align-items: flex-end;
 }
-.text{
-    border: 1px solid yellowgreen; 
+.text{ 
     flex: 1;
     height: 82vh;
     margin-left: 7rem;
@@ -150,7 +147,6 @@ input[type=button]:hover{
 input[type=button]:active{
     box-shadow: 2px 2px 5px #fc4df6;
 }
-
 img{
     max-height: 790px;
 }   
