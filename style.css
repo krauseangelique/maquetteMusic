@@ -57,26 +57,38 @@ div[class^="bulle-"]{
     z-index: -10;
     aspect-ratio: 1;
     position: absolute;
-    background-color: red;
-    
+   
 }
 div.bulle-1{
     background-color: #473144;
-    top: 700px;
-    left: -40px;
+    top: 50%;
+    left: -10%;
     height: 400px;
 }
 div.bulle-2{
-    background-color: pink;
-    top: 300px;
-    left: 540px;
-    max-height: 200px;
+    background-color: #29384B;
+    top: 21%;
+    left: 26%;
+    height: 120px;
 }
 div.bulle-3{
     background-color: #29384B;
-    bottom: 100px;
-    right: 100px;
-    max-height: 500px;
+    bottom: -2%;
+    right: 5%;
+    height: 500px;
+}
+div.bulle-4{
+    background-color: #29384B;
+    top: 7%;
+    left: 50%;
+    height: 60px;
+}
+div.bulle-5{
+    background-color: #473144;
+    top: 55%;
+    left: 40%;
+    height: 60px;
+
 }
 
 
