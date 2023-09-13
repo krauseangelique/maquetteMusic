@@ -1,0 +1,13 @@
+.title{
+    display: flex;
+    flex: 50%;
+    border: 1px solid red;
+}
+.formulaire{
+    display: flex;
+    flex: 50%;
+    border: 1px solid red;
+}
+.name{
+    border: 1px solid whitesmoke;
+}

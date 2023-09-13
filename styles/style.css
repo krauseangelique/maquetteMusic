@@ -56,6 +56,7 @@ body{
 #header{
     display: flex;
     justify-content: space-between;
+    padding-top: 0.5rem;
 }
 .logo{
     display: flex;
@@ -107,6 +108,7 @@ main{
     letter-spacing: 1.5px;
     min-height: calc(100vh - 100px);
     font-weight: 400;
+    border: 1px solid green;
     
 }
 .imageInterprete{

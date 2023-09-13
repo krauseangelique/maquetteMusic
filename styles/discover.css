@@ -5,18 +5,26 @@
  }
  .discoverMusic{
    flex-direction:column;
+   padding-left: 1rem;
+   align-items: center;
  }
  .products{
    display: flex;
-   align-items:center;
    height: 25vh;
+   justify-content: center;
+ }
+ .products ul{
+  padding-left: 0;
+  align-items:flex-start;
+  
+  
  }
  .product{
    background-color: var(--element-bg-color);
    text-align: center;
-   padding: 5px;
-     
+   padding: 5px;    
  }
+ 
  .product img{
    transition: ease 0.5s;
  }
