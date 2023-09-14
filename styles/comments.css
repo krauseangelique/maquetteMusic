@@ -1,13 +1,42 @@
 .title{
     display: flex;
-    flex: 50%;
+    width: 50%;
     border: 1px solid red;
 }
-.formulaire{
+.form{
     display: flex;
-    flex: 50%;
-    border: 1px solid red;
+    width: 33%;
+    border: 1px solid green;
+    justify-content: center;
+    align-items: center;
+
+    .formulaire{
+        padding: 3rem;
+        display: flex;
+        flex-direction: column;
+        background-color: gray; 
+        align-items: left; 
+        max-height: 70vh;
+        border-radius: 15px;
+    }
 }
-.name{
-    border: 1px solid whitesmoke;
+input[type=submit]{
+    padding: 0.5rem;
+    margin: 1rem; 
+    border-radius: 15px;
 }
+label{
+    padding-bottom: 1rem;
+    padding-top: 0.5rem;
+   
+}
+input[type=text]{
+    border-radius: 15px;
+    height: 3rem;
+}
+textarea{
+    border-radius: 15px;
+}
+
+
+
